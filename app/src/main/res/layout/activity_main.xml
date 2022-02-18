@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+    />
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu nome"
+        android:inputType="text|textAutoCorrect"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+    />
+
+    //TELEFONE
+    <TextView
+        android:id="@+id/teltxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/edittel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu telefone"
+        android:inputType="phone"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+    />
+
+    //EMAIL
+    <TextView
+        android:id="@+id/emailtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    //SENHA
+    <TextView
+        android:id="@+id/senhatxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/editsenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu senha"
+        android:inputType="textPassword"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Enviar"
+        android:id="@+id/btsend"
+    />
+
+</LinearLayout>
